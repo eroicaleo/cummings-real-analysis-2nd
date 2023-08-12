@@ -1,0 +1,16 @@
+site_name: Real Analysis by Jay Cummings (2nd Ed)
+theme: readthedocs
+
+nav:
+  - Home: index.md
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math:
+        enable_dollar_delimiter: True
+
+repo_name: Github
+repo_url: https://github.com/eroicaleo/cummings-real-analysis-2nd/
+edit_uri: 'blob/main/docs/'
